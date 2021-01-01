@@ -1,7 +1,6 @@
 from math import pow, sqrt
 import numpy as np
 from random import uniform, random
-import matplotlib.pyplot as plt
 
 
 def distance(p1, p2):
@@ -87,7 +86,10 @@ class Clusters:
             cluster = best[point][0]
             self.clusters[cluster].points.append(point)
 
-        for cluster in self.clusters:
+        for i, cluster in enumerate(self.clusters):
+            if not cluster.points:  # rare case that a cluster may be pushed out by another
+                self.clusters.pop(i)
+                i -= 1
             cluster.set_location()
 
     def converged(self):
@@ -106,3 +108,7 @@ class Clusters:
                 elif dim < low[i]:
                     low[i] = dim
         return [(low, high) for low, high in zip(low, high)]
+
+
+class Clusterspp(Clusters):
+    pass
