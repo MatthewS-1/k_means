@@ -1,4 +1,5 @@
 # Implementation of K-means in python
 Here is an example of what main.py will execute.    
 This is a random dataset; the red points represent the clusters, and the green points are randomly generated points.    
-![](https://lh3.googleusercontent.com/8Plcf0sdyaLADONTdQxufFNQn-2Q4-4G_m-aHy2Hd9WuSTYX1XO5jBg9K8sHoiZ6Xgv4gzgjYAdT-RT7Crhlax9AEEa7DHDUQt83jAeJ79rEP25thKlyCjycp1Fk7diNPo_9ntoNNKM1RhsdTF8-XTJXp6wBhZ89qijF5EluR2BVnS_OYatPMf9Ql9KdpNY1yub2kP3J_JZmb-kSDvXKioen2Y6edK_BZnNaEvyCo9E2EXiKoMj_-zcyDPu5CDu44jX1Zr_r3Yy-Uacjj_DNgo82iwHciFwXd8G0CfUuxTV8FhDtFPw7t3m9N1xN39VjopcQUwQsPQDMGzNFfgrrY7kJFOFdWQhzd4SHUTitIsasv_NqGLto-GKdcURdj_bPbm6sLyVSWzO4B5vdfD9cRt_BrEu3mBAp9AFT0dV0fOZGTxvY2LfIPThv6mJEgnTpou-MQQY1hTF20n8P5RKdQN0CWyosbLQWQSK0dnIogoJr6p0wMmYE3Ou3VWA85-X9hW2b4JrkWsAgHRE_Ef5XfO4uFTaGW8pRIual_Cqb3XFoqpG8GNDJNkevdI8ruaCpwgj5KQdEGyB0oaZt466Ze1z_jHkvERDrj_oziip7Fj-ci_SXL2v8Dcuc9JwtUAxNqbHSeajziMW7DmbO9zgtIXib4WQF2_KLzqXzTn9kqtDvJiGFnvFz2SHYmGFgpM7Ebjh-DbmTJj_-kOgbRbAmUXVx=w640-h480-no?authuser=0)
+![](https://github.com/MatthewS-1/k_means/blob/main/k-means_with_random_dataset.png?raw=true)
+![](https://github.com/MatthewS-1/k_means/blob/main/k-means_with_random_dataset2.png?raw=true)
